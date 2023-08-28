@@ -1,14 +1,14 @@
 //Storage
-
+let collectedGraphComponent = [];
 let graphComponentMatrix = [];
 
-for (let i = 0; i < row; i++) {
-    let rows = [];
-    for (let j = 0; j < col; j++) {
-        rows.push([]);
-    }
-    graphComponentMatrix.push(rows);
-}
+// for (let i = 0; i < row; i++) {
+//     let rows = [];
+//     for (let j = 0; j < col; j++) {
+//         rows.push([]);
+//     }
+//     graphComponentMatrix.push(rows);
+// }
 
 function isGraphCyclic(graphComponentMatrix) {
     let visited = [];
